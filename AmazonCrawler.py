@@ -56,8 +56,8 @@ def getAmazonDetails(isbn):
             html = urllib2.urlopen(req).read()
             soup = BeautifulSoup(html, 'html.parser')    
             for i in range(0,10):
-                review = soup.find_all('div',{'class':"a-section review"})[i].contents[3].get_text()            
+                review = soup.find_all('div',{'class':"a-section review"})[i].contents[3].get_text().encode('UTF-8')
                 writer_book.writerow({'book_isbn': isbn, 'review': review})
             
             
-getAmazonDetails('0471295639')
+getAmazonDetails('0446576433')
