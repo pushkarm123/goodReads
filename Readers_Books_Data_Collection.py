@@ -70,11 +70,11 @@ with open('csv_files/user_data.csv', 'w') as csvfile, open('csv_files/book_data.
     lst = []
     i = 0
     
-    while i < 10:   
+    while i < 10000:   
         try:     
             
             time.sleep(1)
-            c = random.randint(1, 1000000)
+            c = random.randint(1, 10000000)
             print "random number: " + str(c)    
 
             if (c not in lst):
