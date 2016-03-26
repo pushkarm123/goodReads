@@ -16,7 +16,10 @@ def getval(root, element):
             return ret.encode("utf8")
     except:
         return ""
-    
+ 
+
+os.mkdir("csv_files")
+os.mkdir("xml_docs")    
 
 with open('csv_files/amazon_book_ratings.csv', 'w') as csvfile_ratings, open('csv_files/amazon_book_reviews.csv', 'w') as csvfile_reviews:
     ##Create file headers and writer
@@ -70,11 +73,11 @@ with open('csv_files/user_data.csv', 'w') as csvfile, open('csv_files/book_data.
     lst = []
     i = 0
     
-    while i < 10000:   
+    while i < 2000:   
         try:     
             
             time.sleep(1)
-            c = random.randint(1, 10000000)
+            c = random.randint(2500001, 5000000)
             print "random number: " + str(c)    
 
             if (c not in lst):
