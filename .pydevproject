@@ -6,9 +6,9 @@
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
-<path>/Users/pushkar/Desktop/Goodreads/goodreads-0.2.4</path>
-<path>/Users/pushkar/Desktop/Goodreads/xmltodict-0.10.1</path>
-<path>/Users/pushkar/Desktop/Goodreads/requests-2.9.1</path>
-<path>/Users/pushkar/Desktop/Goodreads/rauth-0.7.1</path>
+<path>/Users/pushkar/Documents/workspace/goodReads/Libraries/rauth-0.7.1</path>
+<path>/Users/pushkar/Documents/workspace/goodReads/Libraries/requests-2.9.1</path>
+<path>/Users/pushkar/Documents/workspace/goodReads/Libraries/xmltodict-0.10.1</path>
+<path>/Users/pushkar/Documents/workspace/goodReads/Libraries/goodreads-0.2.4</path>
 </pydev_pathproperty>
 </pydev_project>
